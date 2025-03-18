@@ -1,0 +1,15 @@
+[package]
+name = "NFT-charity"
+version = "1.0.0"
+authors = []
+
+[addresses]
+NFTCharityAuction =0xbe7cb5ef42aa658e4d6b400c9fce0ee69a4249ec98b06231f5810b1062b1a91
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
